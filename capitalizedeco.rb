@@ -1,4 +1,4 @@
-require './basedeco'
+require_relative 'basedeco'
 
 class CapitalizeDecorator < Decorator
   def correct_name
