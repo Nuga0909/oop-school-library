@@ -35,7 +35,6 @@ class App
     end
   end
 
-
   def person_create
     puts 'Do you want to create a student (1) or a teacher (2)? [Input the number]:'
     number = gets.chomp
@@ -74,7 +73,6 @@ class App
     @people.push Student.new(age: age, name: name, parent_permission: parent_permission, classroom: classroom)
     puts 'Person created successfully!'
   end
-
 
   def new_book
     puts 'Title:'
