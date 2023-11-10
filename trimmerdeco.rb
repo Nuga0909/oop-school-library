@@ -1,4 +1,4 @@
-require './basedeco'
+require_relative 'basedeco'
 
 class TrimDecorator < Decorator
   def correct_name
