@@ -4,7 +4,6 @@ require_relative 'capitalizedeco'
 require_relative 'trimmerdeco'
 require_relative 'rental'
 
-
 class Person < Nameable
   attr_accessor :name, :age, :rentals
   attr_reader :id
