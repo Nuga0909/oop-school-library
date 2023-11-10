@@ -16,7 +16,7 @@ class Person < Nameable
     @rentals = []
     super()
   end
-  
+
   def add_rental(date, book)
     Rental.new(date, self, book)
   end
@@ -28,7 +28,7 @@ class Person < Nameable
   def correct_name
     @name
   end
-  
+
   private
 
   def of_age?
